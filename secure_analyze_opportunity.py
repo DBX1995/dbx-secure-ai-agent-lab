@@ -5,7 +5,7 @@ bedrock_runtime = boto3.client(
     region_name="us-east-1"
 )
 
-with open("sample_opportunity_injected.txt", "r", encoding="utf-8") as file:
+with open("sample_opportunity_injected_v2.txt", "r", encoding="utf-8") as file:
     opportunity_text = file.read()
 
 system_instructions = """
